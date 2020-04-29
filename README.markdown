@@ -1,5 +1,5 @@
-# Fork Me! FCC: Test Suite Template
+# Simple Javascript Calculator
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/chewjta/pen/JjdEGgr](https://codepen.io/chewjta/pen/JjdEGgr).
+## A cool calculator with basic functions like add,subtract,multiply,divide with a sweet ability to toggle positive or negative sign. 
 
 
