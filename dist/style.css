@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oxanium&display=swap");
+/* font-family: 'Orbitron', */
+#calculator {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame {
+  position: relative;
+  background: black;
+  width: 320px;
+  padding: 5px;
+}
+
+button {
+  width: 80px;
+  height: 80px;
+  font-family: 'Oxanium';
+  background: #282828;
+  color: white;
+  border: none;
+  outline: 1px solid black;
+  position: relative;
+}
+button:hover {
+  color: #7FFF00;
+  outline: .5px solid white;
+  z-index: 2;
+}
+
+#display {
+  font-family: 'Orbitron';
+  line-height: 40px;
+  color: #7FFF00;
+  text-align: right;
+  font-size: 20px;
+}
+
+#formulascreen {
+  font-family: 'Orbitron';
+  line-height: 20px;
+  color: orange;
+  text-align: right;
+  font-size: 16px;
+  min-height: 20px;
+}
+
+#equals {
+  width: 160px;
+  background: #FF4500;
+}
+
+.red {
+  background: #DC143C;
+}
+
+.operators {
+  background: #696969;
+}
+
+body {
+  background: url("https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260");
+}
+
+#author {
+  text-align: center;
+  margin-top: 35px;
+  font-family: 'Oxanium';
+  color: white;
+}
+#author a {
+  text-decoration: none;
+  color: #7FFF00;
+}
